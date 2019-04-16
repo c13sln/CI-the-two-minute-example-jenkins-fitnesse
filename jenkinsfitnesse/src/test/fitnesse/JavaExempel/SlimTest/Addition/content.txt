@@ -1,0 +1,13 @@
+!contents
+
+!*> setup
+|import|
+|fitnesse.eg|
+
+*!
+
+|Addition|
+|number|number2|sum?|
+|10       |2          |12      |
+|12     |3          |15      |
+|-3       |7          |4   |
