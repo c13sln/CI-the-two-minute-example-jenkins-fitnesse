@@ -1,20 +1,39 @@
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class CalculatorTest {
 
-    Calculator calc;
+    static Calculator calc;
 
     @BeforeAll
-    public void init() {
+    public static void init() {
         calc = new Calculator();
     }
 
     @Test
     public void testaTvåPlusTvåÄrFyra() {
-        AssertThat(calc.add(2,2)).isEqualTo(4);
+        assertThat(calc.add(2,2), is(4));
+        System.out.println("calc.add(2,2) is: " + calc.add(2,2));
+    }
+
+    @Test
+    public void testaFyraGångerFyraÄrSexton() {
+        assertThat(calc.multiply(4,4), is(16));
+        System.out.println("calc.multiply(4,4) is: " + calc.multiply(4,4));
+    }
+
+    @Test
+    public void testaSextonGenomFyraÄrFyra() {
+        assertThat(calc.divide(16,4), is((long) 4.0));
+        System.out.println("calc.divide(16,4) is: " + calc.divide(16,4));
+    }
+
+    @Test
+    public void testaNollMinusTreÄrNegativtTre() {
+        assertThat(calc.subtract(0,3), is(-3));
+        System.out.println("calc.subtract(0,3) is: " + calc.subtract(0,3));
     }
 }
