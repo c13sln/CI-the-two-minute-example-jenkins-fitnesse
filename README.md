@@ -8,3 +8,5 @@ Det finns två mappar, den ena innehållande det som krävs för att köra igån
 **Användarnamn**: admin  
 **Lösenord**: admin  
 ### Fitnesse
+För att köra Fitnesse manuellt: Traversera till jenkinsfitnesse-katalogen.  
+Skriv därefter in kommandot: **mvn verify -P auto** 
