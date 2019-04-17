@@ -10,3 +10,6 @@ Det finns två mappar, den ena innehållande det som krävs för att köra igån
 ### Fitnesse
 För att köra Fitnesse manuellt: Traversera till jenkinsfitnesse-katalogen.  
 Skriv därefter in kommandot: **mvn verify -P auto** 
+
+## Instruktioner  
+[**Lägg till github hook**](https://dzone.com/articles/adding-a-github-webhook-in-your-jenkins-pipeline)
