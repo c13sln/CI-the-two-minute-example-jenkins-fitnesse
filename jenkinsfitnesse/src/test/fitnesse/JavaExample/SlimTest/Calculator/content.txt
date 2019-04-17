@@ -1,0 +1,15 @@
+!contents
+
+!*> setup
+|import|
+|sebastian|
+
+*!
+
+!2 See .FitNesse.UserGuide.TwoMinuteExample 
+
+|Calculator|
+|number|number2|add?|subtract?|multiply?|divide?|
+|8.0        |2.0           |10.0       |6.0      |16.0      |4.0     |
+|10.0       |5.0           |15.0       |5.0      |50.0      |2.0     |
+

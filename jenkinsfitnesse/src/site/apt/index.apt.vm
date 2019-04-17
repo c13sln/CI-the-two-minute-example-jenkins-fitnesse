@@ -41,5 +41,5 @@ mvn clean verify -P auto
 
  *
 
-   Thanks to {{{http://anubhava.wordpress.com/}Anubhava Srivastava}} for his {{{http://fitnesse.org/FitNesse.UserGuide.FixtureGallery.BasicFitFixtures}Fit Fixture}} {{{http://anubhava.wordpress.com/2008/02/09/introducing-generic-fixture-for-fitnesse/}<<<fitnesse.fit.anubhava.GenericFixture>>>}} and ancillary classes, also included in the project.
+   Thanks to {{{http://sebastian.wordpress.com/}Anubhava Srivastava}} for his {{{http://fitnesse.org/FitNesse.UserGuide.FixtureGallery.BasicFitFixtures}Fit Fixture}} {{{http://sebastian.wordpress.com/2008/02/09/introducing-generic-fixture-for-fitnesse/}<<<fitnesse.fit.sebastian.GenericFixture>>>}} and ancillary classes, also included in the project.
 
