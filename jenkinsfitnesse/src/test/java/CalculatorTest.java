@@ -32,4 +32,12 @@ public class CalculatorTest {
         calculator.setNumber2(2.0);
         assert(calculator.divide() == 4.0);
     }
+
+    @Test
+    public void testaDivideMedKonstigaTal() {
+        Calculator calculator = new Calculator();
+        calculator.setNumber(9.0);
+        calculator.setNumber2(2.0);
+        assert(calculator.divide() == 4.5);
+    }
 }
